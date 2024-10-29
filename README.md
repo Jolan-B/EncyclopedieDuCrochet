@@ -1,5 +1,5 @@
 # Crochet
 
-Ceci est le lien pour le site pour le crochet
+Ceci est le lien pour le site sur le crochet
 
-[Site Web](https://Jolan-B.github.io/Crochet/)
+[Site Web](https://jolan-b.github.io/Crochet/)
