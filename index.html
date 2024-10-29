@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crochet_menu</title>
+    <title>Encyclopédie du Crochet</title>
     <link rel="stylesheet" href="index.css">
     <link rel="icon" type="image/svg+xml" href="img/logo.png" />
 </head>
@@ -12,11 +12,58 @@
 <body>
 
     <header>
-        <img src="img/logo.png" onclick="window.location.href='menu.html';" />
-        <button onclick="window.location.href='panier.html';">Page1</button>
-        <button onclick="window.location.href='panier.html';">Page2</button>
-        <button onclick="window.location.href='panier.html';">Page3</button>
-        <button onclick="window.location.href='panier.html';">Page4</button>
+        <img src="img/logo.png" onclick="window.location.href='index.html';" />
+
+        <div class="vide" id="1">
+
+        </div>
+
+        <div class="regroupe">
+
+            <button class="primaire">Débutant</button>
+
+            <button class="secondaire" onclick="window.location.href='Point/maille_coulee.html';">Maille
+                coulée</button>
+            <button class="secondaire" onclick="window.location.href='Point/maille_serree.html';">Maille serrée</button>
+            <button class="secondaire" onclick="window.location.href='Point/bride.html';">Bride</button>
+            <button class="secondaire" onclick="window.location.href='Point/demi_bride.html';">Demi-Bride</button>
+            <button class="secondaire" onclick="window.location.href='Point/double_bride.html';">Double-Bride</button>
+        </div>
+
+
+        <div class="regroupe">
+
+            <button class="primaire">Facile</button>
+
+            <button class="secondaire" onclick="window.location.href='Point/triple_bride.html';">Triple-Bride</button>
+            <button class="secondaire" onclick="window.location.href='Point/point_d_ecrevisse.html';">Point
+                d'Écrevisse</button>
+            <button class="secondaire" onclick="window.location.href='Point/point_de_riz.html';">Point de Riz</button>
+            <button class="secondaire" onclick="window.location.href='Point/grille_de_brides.html';">Grille de
+                Brides</button>
+        </div>
+
+        <div class="regroupe">
+
+            <button class="primaire">Intermédiaire</button>
+
+            <button class="secondaire" onclick="window.location.href='Point/point_granite.html';">Point Granité</button>
+            <button class="secondaire" onclick="window.location.href='Point/point_alpin.html';">Point Alpin</button>
+            <button class="secondaire" onclick="window.location.href='Point/point_d_alveoles.html';">Point
+                d'Alvéoles</button>
+            <button class="secondaire" onclick="window.location.href='Point/point_de_rose.html';">Point de Rose</button>
+        </div>
+
+        <div class="regroupe">
+
+            <button class="primaire">Qualifié</button>
+
+            <button class="secondaire" onclick="window.location.href='Point/point_de_vagues.html';">Point de
+                Vagues</button>
+            <button class="secondaire" onclick="window.location.href='Point/point_souffle.html';">Point Soufflé</button>
+
+        </div>
+
 
     </header>
 
@@ -25,7 +72,7 @@
 
     <section class="point">
 
-        <h1>Ceci est un nom de point</h1>
+        <h1>Ceci est le nom du point</h1>
 
         <div class="dispo_txt_img">
 
@@ -37,25 +84,18 @@
 
         </div>
 
-
-    </section>
-
-    <section class="point">
-
-        <h1>Ceci est un nom de point</h1>
-
-        <div class="dispo_txt_img">
-
-            <div class="illustration">
-                <img src="img/logo.png" />
-            </div>
-
-            <span class="txt">blablablablablabla</span>
-
+        <div class="remontePage">
+            <img src="img/tete_chat.jpg" onclick="window.location.href='index.html';" />
         </div>
 
 
     </section>
+
+
+    <footer>
+        <span class=" copyright">© Jolan Bertin</span>
+    </footer>
+
 
 </body>
 
