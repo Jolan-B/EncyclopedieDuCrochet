@@ -8,3 +8,72 @@ git add /c/Users/Public/BUT_Info/Github/Crochet
 git commit -m "message"
 git push 
 */
+
+body {
+    --header_height: 80px;
+
+
+    margin: 0;
+}
+
+
+header {
+    width: 100%;
+    height: var(--header_height);
+    background-color: tomato;
+
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header>img {
+    height: var(--header_height);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vide {
+    height: var(--header_height);
+}
+
+.point {
+    border: solid 2px aqua;
+}
+
+.point:nth-child(2n) {
+    .dispo_txt_img {
+        flex-direction: row-reverse;
+    }
+}
+
+.titre {
+    height: 50px;
+
+    border: 2px red;
+
+}
+
+.dispo_txt_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.illustration {
+    width: 45%;
+    border: solid 2px green;
+}
+
+.illustration>img {
+    width: 100%;
+}
+
+.txt {
+    height: 50px;
+    width: 45%;
+    border: solid 2px purple;
+
+}
