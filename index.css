@@ -65,8 +65,7 @@ header>.vide {
     width: 100%;
 }
 
-.secondaire,
-.tertiaire {
+.secondaire {
     display: none;
 }
 
@@ -81,22 +80,9 @@ header>.vide {
     }
 }
 
-.secondaire>.tertiaire {
-    margin-top: var(--secondaire_height);
-    background-color: aquamarine;
-
-}
-
-.tertiaire {
-    width: 100%;
-    margin-left: 100%;
-}
-
-
 .point {
     border: solid 2px aqua;
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .point:nth-child(2n) {
