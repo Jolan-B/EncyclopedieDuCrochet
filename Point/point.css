@@ -9,16 +9,6 @@ git commit -m "message"
 git push 
 */
 
-/* 
-cd /c/Users/Public/BUT_Info/Github/EncyclopedieDuCrochet
-git pull
-
-    changer page
-
-git add /c/Users/Public/BUT_Info/Github/EncyclopedieDuCrochet
-git commit -m "message"
-git push 
-*/
 
 body {
     --white: white;
@@ -119,10 +109,17 @@ header>.vide {
 .illustration {
     width: 45%;
     border: solid 2px green;
+    height: 500px;
 }
 
 .illustration>img {
     width: 100%;
+}
+
+.illustration>iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .txt {
