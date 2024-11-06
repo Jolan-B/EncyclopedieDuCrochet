@@ -15,6 +15,7 @@ body {
     --header_color: tomato;
 
     --header_height: 80px;
+    --logo_height_hover: 90px;
     --regroupe_width: 20%;
     --secondaire_height: 4vw;
 
@@ -33,11 +34,16 @@ header {
     justify-content: space-evenly;
 }
 
-header>img {
+.logo {
     height: var(--header_height);
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    height: var(--logo_height_hover);
 }
 
 header>.vide {
