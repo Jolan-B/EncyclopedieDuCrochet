@@ -94,22 +94,20 @@ header>.vide {
 
 .titre {
     height: 50px;
-
-    border: 2px red;
-
 }
 
 .dispo_txt_img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 2px red;
 }
 
 
 .illustration {
     width: 45%;
     border: solid 2px green;
-    height: 500px;
+    height: 100%;
 }
 
 .illustration>img {

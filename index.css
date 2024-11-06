@@ -12,6 +12,7 @@ git push
 body {
     --white: white;
     --black: black;
+    --header_color: tomato;
 
     --header_height: 80px;
     --regroupe_width: 20%;
@@ -25,7 +26,7 @@ body {
 header {
     width: 100%;
     height: var(--header_height);
-    background-color: tomato;
+    background-color: var(--header_color);
 
     position: fixed;
     display: flex;
@@ -53,8 +54,16 @@ header>.vide {
 
 .regroupe:hover {
 
+    transition: 5s;
+
+    .primaire {
+        color: var(--white);
+        border: 1px solid var(--white);
+    }
+
     .secondaire {
         display: block;
+        height: var(--secondaire_height);
         width: 100%;
     }
 
@@ -63,21 +72,23 @@ header>.vide {
 .primaire {
     height: 100%;
     width: 100%;
+    background-color: var(--header_color);
+    border: none;
 }
+
 
 .secondaire {
     display: none;
-}
+    background-color: var(--header_color);
+    border: none;
+    text-align: left;
 
-.secondaire {
-    height: var(--secondaire_height);
 }
 
 .secondaire:hover {
 
-    .secondaire {
-        background-color: var(--white);
-    }
+    background-color: var(--white);
+    text-indent: 8%;
 }
 
 .point {
@@ -135,7 +146,7 @@ header>.vide {
 
 footer {
     height: var(--header_height);
-    background-color: tomato;
+    background-color: var(--header_color);
 }
 
 .copyright {
