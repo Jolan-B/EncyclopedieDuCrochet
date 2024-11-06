@@ -15,12 +15,16 @@ body {
     --header_color: tomato;
 
     --header_height: 80px;
-    --logo_height_hover: 90px;
     --regroupe_width: 20%;
     --secondaire_height: 4vw;
 
-    --primaire_font_size: 22px;
-    --secondaire_font_size: 16px;
+    --logo_height_hover: 95px;
+    --logo_margin_hover: -7.5px;
+    /* = (header_height-logo_height_hover)/2 */
+
+    --primaire_font_size: 20px;
+    --secondaire_font_size: 14.5px;
+    --header_police: Georgia, serif;
 
     margin: 0;
 }
@@ -47,6 +51,8 @@ header {
 .logo:hover {
     transition: 0.5s;
     height: var(--logo_height_hover);
+    top: var(--logo_margin_hover);
+    left: var(--logo_margin_hover);
 }
 
 header>.vide {
@@ -59,6 +65,7 @@ header>.vide {
 
 .regroupe {
     width: var(--regroupe_width);
+    font-family: var(--header_police);
 }
 
 .regroupe:hover {
