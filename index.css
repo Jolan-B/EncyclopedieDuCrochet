@@ -15,6 +15,7 @@ body {
     --header_color: tomato;
 
     --header_height: 80px;
+    --panorama_height: 200px;
     --regroupe_width: 20%;
     --secondaire_height: 4vw;
 
@@ -125,7 +126,6 @@ header>.vide {
     align-items: center;
 
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -134,10 +134,20 @@ header>.vide {
     font-size: var(--primaire_font_size);
 }
 
+.panorama {
+    width: 100%;
+}
+
+.panorama>img {
+    width: 100%;
+    height: var(--panorama_height);
+
+    object-fit: cover;
+}
+
 .histoire {
     border: solid 2px aqua;
     background-image: url("img/logo.png");
-
 }
 
 .histoire>section:nth-child(2n) {
@@ -149,26 +159,55 @@ header>.vide {
     margin-top: 5%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
 .illustration {
-    width: 45%;
-    border: solid 2px green;
+
+    border: solid 2px purple;
+    width: 50%;
     height: 100%;
+
 }
 
 .illustration>img {
     width: 100%;
 }
 
-.txt {
+.dispo_txt_img:hover {
 
-    height: 50px;
-    width: 45%;
-    border: solid 2px purple;
+    transition: 5s;
+
+    .txt {
+        display: block;
+        width: 45%;
+        padding-left: 2%;
+        background-color: var(--header_color);
+    }
+
+    .txt h1 {
+        margin-left: 4%;
+    }
+
+    .txt p {
+        text-indent: 2.5vw;
+    }
 }
+
+.txt {
+    display: none;
+    width: 0%;
+}
+
+.txt h1 {
+    margin-left: 0%;
+}
+
+.txt p {
+    text-indent: 0vw;
+}
+
 
 .remontePage {
     width: 5%;
