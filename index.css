@@ -26,6 +26,9 @@ body {
     --secondaire_font_size: 14.5px;
     --header_police: Georgia, serif;
 
+    --transition_rapide: 0.25s;
+    --transition_normal: 0.5s;
+
     margin: 0;
 }
 
@@ -49,7 +52,7 @@ header {
 }
 
 .logo:hover {
-    transition: 0.5s;
+    transition: var(--transition_normal);
     height: var(--logo_height_hover);
     top: var(--logo_margin_hover);
     left: var(--logo_margin_hover);
@@ -71,15 +74,13 @@ header>.vide {
 .regroupe:hover {
 
     .primaire {
+        transition: var(--transition_rapide);
         color: var(--white);
         /* border: 1px solid var(--white); */
     }
 
-    transition: 5s;
-
     .secondaire {
-        transition: 0.25s;
-
+        transition: var(--transition_rapide);
         display: block;
         height: var(--secondaire_height);
         width: 100%;
@@ -119,25 +120,33 @@ header>.vide {
     text-indent: 9%;
 }
 
-.point {
+.bienvenu {
+    height: var(--header_height);
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bienvenu span {
+    font-family: var(--header_police);
+    font-size: var(--primaire_font_size);
+}
+
+.histoire {
     border: solid 2px aqua;
-    padding-top: 40px;
+    background-image: url("img/logo.png");
+
 }
 
-.point:nth-child(2n) {
-    .dispo_txt_img {
-        flex-direction: row-reverse;
-    }
-}
+.histoire>section:nth-child(2n) {
 
-.titre {
-    height: 50px;
-
-    border: 2px red;
-
+    flex-direction: row-reverse;
 }
 
 .dispo_txt_img {
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,6 +156,7 @@ header>.vide {
 .illustration {
     width: 45%;
     border: solid 2px green;
+    height: 100%;
 }
 
 .illustration>img {
@@ -154,10 +164,10 @@ header>.vide {
 }
 
 .txt {
+
     height: 50px;
     width: 45%;
     border: solid 2px purple;
-
 }
 
 .remontePage {
