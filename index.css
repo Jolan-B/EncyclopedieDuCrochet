@@ -13,6 +13,8 @@ body {
     --white: white;
     --black: black;
     --header_color: tomato;
+    --txt_background: #f19066;
+    --img_background: #f3a683;
 
     --header_height: 80px;
     --panorama_height: 200px;
@@ -31,7 +33,11 @@ body {
     --transition_normal: 0.5s;
 
     margin: 0;
+    font-family: var(--header_police);
 }
+
+
+/* HEADER */
 
 
 header {
@@ -105,7 +111,6 @@ header>.vide {
     font-size: var(--primaire_font_size);
 }
 
-
 .secondaire {
     background-color: var(--header_color);
     border: none;
@@ -122,6 +127,10 @@ header>.vide {
     transition: var(--transition_rapide);
 
 }
+
+
+/* BODY */
+
 
 .bienvenu {
     height: var(--header_height);
@@ -148,8 +157,11 @@ header>.vide {
 }
 
 .histoire {
-    border: solid 2px aqua;
-    background-image: url("img/logo.png");
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .histoire>section:nth-child(2n) {
@@ -157,19 +169,25 @@ header>.vide {
     flex-direction: row-reverse;
 }
 
+.dispo_txt_img:nth-child(1) {
+    padding-top: 5%;
+}
+
 .dispo_txt_img {
+    padding-left: 4%;
+    padding-right: 4%;
     margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
 
+}
 
 .illustration {
 
-    border: solid 2px purple;
     width: 50%;
     height: 100%;
+    background-color: var(--img_background);
 
 }
 
@@ -179,51 +197,45 @@ header>.vide {
 
 .dispo_txt_img:hover {
 
-
     .txt {
         transition: var(--transition_rapide);
-
         width: 45%;
-        padding-left: 2%;
-        background-color: var(--header_color);
+        padding: 2%;
+        background-color: var(--txt_background);
         font-size: 15px;
     }
 
     .txt h1 {
         margin-left: 4%;
+        font-size: 2.5vw;
     }
 
     .txt p {
         text-indent: 2.5vw;
+        font-size: 2vw;
     }
 }
 
 .txt {
     font-size: 0;
-
     width: 0%;
 }
 
-.txt h1 {
-    margin-left: 0%;
-}
-
-.txt p {
-    text-indent: 0vw;
-}
-
-
 .remontePage {
-    width: 5%;
+    width: 9%;
     display: flex;
     position: sticky;
-    margin-left: 95%;
+    margin-left: 91%;
     bottom: 0%;
 }
 
 .remontePage>img {
     width: 100%;
 }
+
+
+/* FOOTER */
+
 
 footer {
     height: var(--header_height);
