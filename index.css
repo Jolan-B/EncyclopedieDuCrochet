@@ -85,6 +85,7 @@ header>.vide {
         display: block;
         height: var(--secondaire_height);
         width: 100%;
+        font-size: var(--secondaire_font_size);
     }
 
 }
@@ -106,19 +107,20 @@ header>.vide {
 
 
 .secondaire {
-    display: none;
     background-color: var(--header_color);
     border: none;
     align-content: center;
     text-align: left;
     text-indent: 3.5%;
-    font-size: var(--secondaire_font_size);
-
+    height: 0;
+    font-size: 0;
 }
 
 .secondaire:hover {
     background-color: var(--white);
     text-indent: 9%;
+    transition: var(--transition_rapide);
+
 }
 
 .bienvenu {
@@ -177,13 +179,14 @@ header>.vide {
 
 .dispo_txt_img:hover {
 
-    transition: 5s;
 
     .txt {
-        display: block;
+        transition: var(--transition_rapide);
+
         width: 45%;
         padding-left: 2%;
         background-color: var(--header_color);
+        font-size: 15px;
     }
 
     .txt h1 {
@@ -196,7 +199,8 @@ header>.vide {
 }
 
 .txt {
-    display: none;
+    font-size: 0;
+
     width: 0%;
 }
 
