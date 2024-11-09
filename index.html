@@ -14,27 +14,35 @@
     <header>
         <img class="logo" src="img/logo.png" onclick="window.location.href='index.html';" />
 
-        <div class="vide">
 
+
+        <div class="vide" id="vide_header">
+
+        </div>
+
+        <div class="primaire" id="accueil" onclick="window.location.href='index.html';">
+            <span>Accueil</span>
         </div>
 
         <div class="regroupe">
 
             <div class="primaire"> <span>Débutant</span></div>
 
-            <div class="secondaire" onclick="window.location.href='Point/maille_coulee.html';">
-                <span><span>Maille</span>
-                    coulée
+            <div class="secondaire" id="debutant" onclick="window.location.href='Point/maille_coulee.html';">
+                <span>Maille coulée</span>
+
             </div>
-            <div class="secondaire" onclick="window.location.href='Point/maille_serree.html';"><span><span>Maille
-                        serrée</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/bride.html';"><span><span>Bride</span>
+            <div class="secondaire" id="debutant" onclick="window.location.href='Point/maille_serree.html';">
+                <span>Maille serrée</span>
             </div>
-            <div class="secondaire" onclick="window.location.href='Point/demi_bride.html';">
-                <span><span>Demi-Bride</span>
+            <div class="secondaire" id="debutant" onclick="window.location.href='Point/bride.html';">
+                <span>Bride</span>
             </div>
-            <div class="secondaire" onclick="window.location.href='Point/double_bride.html';"><span>
-                    <span>Double-Bride</span>
+            <div class="secondaire" id="debutant" onclick="window.location.href='Point/demi_bride.html';">
+                <span>Demi-Bride</span>
+            </div>
+            <div class="secondaire" id="debutant" onclick="window.location.href='Point/double_bride.html';">
+                <span>Double-Bride</span>
             </div>
         </div>
 
@@ -43,45 +51,55 @@
 
             <div class="primaire"><span>Facile</span></div>
 
-            <div class="secondaire" onclick="window.location.href='Point/triple_bride.html';"><span>Triple-Bride</span>
+            <div class="secondaire" id="facile" onclick="window.location.href='Point/triple_bride.html';">
+                <span>Triple-Bride</span>
             </div>
-            <div class="secondaire" onclick="window.location.href='Point/point_d_ecrevisse.html';"><span>Point
-                    d'Écrevisse</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/point_de_riz.html';"><span>Point de
-                    Riz</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/grille_de_brides.html';"><span>Grille de
-                    Brides</span></div>
+            <div class="secondaire" id="facile" onclick="window.location.href='Point/point_d_ecrevisse.html';">
+                <span>Point d'Écrevisse</span>
+            </div>
+            <div class="secondaire" id="facile" onclick="window.location.href='Point/point_de_riz.html';">
+                <span>Point de Riz</span>
+            </div>
+            <div class="secondaire" id="facile" onclick="window.location.href='Point/grille_de_brides.html';">
+                <span>Grille de Brides</span>
+            </div>
         </div>
 
         <div class="regroupe">
 
             <div class="primaire"><span>Intermédiaire</span></div>
 
-            <div class="secondaire" onclick="window.location.href='Point/point_granite.html';"><span>Point
-                    Granité</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/point_alpin.html';"><span>Point
-                    Alpin</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/point_d_alveoles.html';"><span>Point
-                    d'Alvéoles</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/point_de_rose.html';"><span>Point de
-                    Rose</span></div>
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='Point/point_granite.html';">
+                <span>Point Granité</span>
+            </div>
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='Point/point_alpin.html';">
+                <span>Point Alpin</span>
+            </div>
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='Point/point_d_alveoles.html';">
+                <span>Point d'Alvéoles</span>
+            </div>
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='Point/point_de_rose.html';">
+                <span>Point de Rose</span>
+            </div>
         </div>
 
         <div class="regroupe">
 
             <div class="primaire"><span>Qualifié</span></div>
 
-            <div class="secondaire" onclick="window.location.href='Point/point_de_vagues.html';"><span><span>Point de
-                        Vagues</span></div>
-            <div class="secondaire" onclick="window.location.href='Point/point_souffle.html';"><span>Point
-                    Soufflé</span></div>
+            <div class="secondaire" id="qualifie" onclick="window.location.href='Point/point_de_vagues.html';">
+                <span>Point de Vagues</span>
+            </div>
+            <div class="secondaire" id="qualifie" onclick="window.location.href='Point/point_souffle.html';">
+                <span>Point Soufflé</span>
+            </div>
 
         </div>
 
 
     </header>
 
-    <div class="vide">
+    <div class="vide" id="vide_body">
     </div>
 
     <section class="bienvenu">
@@ -94,7 +112,19 @@
 
     <section class="histoire">
 
-        <div class="dispo_txt_img">
+        <section class="dispo_txt_img">
+
+            <div class="txt">
+                <h1>Qu'est ce que c'est ?</h1>
+                <p>blablablablablabla</p>
+            </div>
+            <div class="illustration">
+                <img src="img/logo.png" />
+            </div>
+
+        </section>
+
+        <section class="dispo_txt_img">
 
             <div class="txt">
                 <h1>Une aventure qui dure</h1>
@@ -103,17 +133,6 @@
             </div>
             <div class="illustration">
                 <img src="img/origine.png" />
-            </div>
-        </div>
-
-        <section class="dispo_txt_img">
-
-            <div class="txt">
-                <h1>Par</h1>
-                <p>blablablablablabla</p>
-            </div>
-            <div class="illustration">
-                <img src="img/logo.png" />
             </div>
 
         </section>
