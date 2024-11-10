@@ -13,13 +13,38 @@ git push
 body {
     --white: white;
     --black: black;
+    --header_color: #a55eea;
+    /*bleu ciel #4bcffa */
+    --txt_background: #f19066;
+    --img_background: #f3a683;
 
     --header_height: 80px;
+    --panorama_height: 200px;
     --regroupe_width: 20%;
     --secondaire_height: 4vw;
 
+    --logo_height_hover: 95px;
+    --logo_margin_hover: -7.5px;
+    /* = (header_height-logo_height_hover)/2 */
+
+    /* MEDIA  */
+
+    --media_secondaire_hover_height: 19%;
+    --media_secondaire_debutant_hover_height: 16%;
+    --media_secondaire_qualifie_hover_height: 30%;
+
+    /* MEDIA */
+
+
+    --primaire_font_size: 20px;
+    --secondaire_font_size: 14.5px;
+    --header_police: Georgia, serif;
+
+    --transition_rapide: 0.25s;
+    --transition_normal: 0.5s;
 
     margin: 0;
+    font-family: var(--header_police);
 }
 
 
