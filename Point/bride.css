@@ -27,6 +27,10 @@ body {
     --secondaire_font_size: 14.5px;
     --header_police: Georgia, serif;
 
+    --nom_point_font_size: 2.7vw;
+    --etape_font_size: 2.2vw;
+    --txt_font_size: 2vw;
+
     --transition_rapide: 0.25s;
     --transition_normal: 0.5s;
 
@@ -141,17 +145,19 @@ header>.vide {
 /* BODY */
 
 
-.nom_point {
+.titre_page {
     height: var(--header_height);
     align-items: center;
 
     display: flex;
     justify-content: space-evenly;
+
 }
 
-.nom_point span {
+.titre_page span {
     font-family: var(--header_police);
-    font-size: var(--primaire_font_size);
+    font-size: 3vw;
+    font-weight: bold;
 }
 
 .panorama {
@@ -173,8 +179,14 @@ header>.vide {
     background-attachment: fixed;
 } */
 
-.point>.dispo_txt_img:nth-child(2n) {
-    flex-direction: row-reverse;
+.point>.etape:nth-child(2n+1) {
+    .numero>span {
+        padding-left: 54%;
+    }
+
+    .dispo_txt_img {
+        flex-direction: row-reverse;
+    }
 }
 
 .video_tuto {
@@ -192,10 +204,22 @@ header>.vide {
     border: none;
 }
 
+.numero {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.numero>span {
+    padding-left: 8%;
+    font-weight: bold;
+    font-size: var(--etape_font_size);
+    font-family: var(--header_police);
+}
+
 .dispo_txt_img {
     padding-left: 4%;
     padding-right: 4%;
-    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -214,13 +238,11 @@ header>.vide {
     width: 100%;
 }
 
-
 .txt {
     transition: var(--transition_rapide);
     width: 45%;
     padding: 2%;
     background-color: var(--txt_background);
-    font-size: 15px;
 }
 
 .txt h1 {
@@ -228,14 +250,9 @@ header>.vide {
     font-size: 2.5vw;
 }
 
-.txt>#first {
-    text-indent: 2.5vw;
-}
-
 .txt p {
-    font-size: 2vw;
+    font-size: var(--txt_font_size);
 }
-
 
 .remontePage {
     width: 9%;
@@ -247,6 +264,7 @@ header>.vide {
 
 .remontePage>img {
     width: 100%;
+    cursor: pointer;
 }
 
 
