@@ -1,4 +1,4 @@
-# Crochet
+# Encyclopédie du Crochet
 
 Ceci est le lien pour le site sur le crochet
 
