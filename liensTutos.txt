@@ -48,16 +48,15 @@ https://youtu.be/IxX3HL-mLTU?si=v4a90WQjXYI3-6eX
 lien inséré :
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IxX3HL-mLTU?si=v4a90WQjXYI3-6eX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
 Point de Riz :
-
+https://youtu.be/FGMPhmREakI?si=tsOo6_stcm5KOc8D
 lien inséré :
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FGMPhmREakI?si=tsOo6_stcm5KOc8D&amp;start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Grille de Brides :
-
+https://youtu.be/vFJqJ8scfGs?si=dIyuj9kBfAl0S_-9
 lien inséré :
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vFJqJ8scfGs?si=yk40UXmziEG5N4z0&amp;start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 INTERMÉDIAIRE
