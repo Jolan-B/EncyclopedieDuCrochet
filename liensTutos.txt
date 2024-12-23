@@ -1,3 +1,6 @@
+playlist tutos point : 
+https://www.youtube.com/playlist?list=PL-zg-6Os6vj_WcccXRHIcHLxdIAuM4ruI
+
 DÉBUTANT
 
 
@@ -34,6 +37,26 @@ lien inséré :
 
 FACILE
 
+
+Triple-Bride :
+https://youtu.be/h1QSZlCW53g?si=jCU_HKJW1guKyTpS
+lien inséré :
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h1QSZlCW53g?si=jCU_HKJW1guKyTpS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Point d'Écrevisse :
+https://youtu.be/IxX3HL-mLTU?si=v4a90WQjXYI3-6eX
+lien inséré :
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IxX3HL-mLTU?si=v4a90WQjXYI3-6eX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Point de Riz :
+
+lien inséré :
+
+
+Grille de Brides :
+
+lien inséré :
 
 
 
