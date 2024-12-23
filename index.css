@@ -12,11 +12,8 @@ git push
 body {
     --white: white;
     --black: black;
+
     --header_color: #ecd327;
-    /*
-    violet #a55eea
-    bleu ciel #4bcffa 
-    */
     --txt_background: #c5af20;
     --img_background: #eed743;
 
@@ -361,15 +358,14 @@ footer {
 
     .dispo_txt_img {
         width: 350px;
+        flex-direction: column-reverse;
+
     }
 
     .histoire>.dispo_txt_img:nth-child(2n) {
         flex-direction: column-reverse;
     }
 
-    .dispo_txt_img {
-        flex-direction: column-reverse;
-    }
 
     .illustration {
         width: 100%;
@@ -391,7 +387,7 @@ footer {
         .txt {
             transition: 0s;
 
-            color: gainsboro;
+            color: var(--white);
             /* background-color: transparent; */
             width: 96%;
             height: 100%;

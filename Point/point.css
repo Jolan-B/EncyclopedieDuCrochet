@@ -2,8 +2,6 @@ body {
     --white: white;
     --black: black;
 
-    --test: #307ed4;
-
     --header_height: 80px;
     --panorama_height: 200px;
     --regroupe_width: 20%;
@@ -131,7 +129,6 @@ header>.vide {
 }
 
 .secondaire:hover {
-    background-color: var(--white);
     text-indent: 9%;
     transition: var(--transition_rapide);
 

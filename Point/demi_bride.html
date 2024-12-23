@@ -9,18 +9,6 @@
 -->
 
 
-<!-- 
---header_color: #5885d8; 
--> header, .primaire, .secondaire, footer
-
---txt_background: #648edc;
--> .txt
-
---img_background: #87aef5; 
--> .illustration
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,9 +20,30 @@
     <link rel="icon" type="image/svg+xml" href="../img/logo.png" />
 </head>
 
+<style>
+    header,
+    .primaire,
+    .secondaire,
+    footer {
+        background-color: #5885d8;
+    }
+
+    .secondaire:hover {
+        background-color: white;
+    }
+
+    .txt {
+        background-color: #648edc;
+    }
+
+    .illustration {
+        background-color: #87aef5;
+    }
+</style>
+
 <body>
 
-    <header style="background-color: #5885d8;">
+    <header>
         <img class="logo" src="../img/logo.png" onclick="window.location.href='../index.html';" />
 
 
@@ -43,34 +52,28 @@
 
         </div>
 
-        <div class="primaire" style="background-color: #5885d8;" id="accueil"
-            onclick="window.location.href='../index.html';">
+        <div class="primaire" id="accueil" onclick="window.location.href='../index.html';">
             <span>Accueil</span>
         </div>
 
         <div class="regroupe">
 
-            <div class="primaire" style="background-color: #5885d8;"> <span>Débutant</span></div>
+            <div class="primaire"> <span>Débutant</span></div>
 
-            <div class="secondaire" style="background-color: #5885d8;" id="debutant"
-                onclick="window.location.href='maille_coulee.html';">
+            <div class="secondaire" id="debutant" onclick="window.location.href='maille_coulee.html';">
                 <span>Maille coulée</span>
 
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="debutant"
-                onclick="window.location.href='maille_serree.html';">
+            <div class="secondaire" id="debutant" onclick="window.location.href='maille_serree.html';">
                 <span>Maille serrée</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="debutant"
-                onclick="window.location.href='bride.html';">
+            <div class="secondaire" id="debutant" onclick="window.location.href='bride.html';">
                 <span>Bride</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="debutant"
-                onclick="window.location.href='demi_bride.html';">
+            <div class="secondaire" id="debutant" onclick="window.location.href='demi_bride.html';">
                 <span>Demi-Bride</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="debutant"
-                onclick="window.location.href='double_bride.html';">
+            <div class="secondaire" id="debutant" onclick="window.location.href='double_bride.html';">
                 <span>Double-Bride</span>
             </div>
         </div>
@@ -78,58 +81,48 @@
 
         <div class="regroupe">
 
-            <div class="primaire" style="background-color: #5885d8;"><span>Facile</span></div>
+            <div class="primaire"><span>Facile</span></div>
 
-            <div class="secondaire" style="background-color: #5885d8;" id="facile"
-                onclick="window.location.href='triple_bride.html';">
+            <div class="secondaire" id="facile" onclick="window.location.href='triple_bride.html';">
                 <span>Triple-Bride</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="facile"
-                onclick="window.location.href='point_d_ecrevisse.html';">
+            <div class="secondaire" id="facile" onclick="window.location.href='point_d_ecrevisse.html';">
                 <span>Point d'Écrevisse</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="facile"
-                onclick="window.location.href='point_de_riz.html';">
+            <div class="secondaire" id="facile" onclick="window.location.href='point_de_riz.html';">
                 <span>Point de Riz</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="facile"
-                onclick="window.location.href='grille_de_brides.html';">
+            <div class="secondaire" id="facile" onclick="window.location.href='grille_de_brides.html';">
                 <span>Grille de Brides</span>
             </div>
         </div>
 
         <div class="regroupe">
 
-            <div class="primaire" style="background-color: #5885d8;"><span>Intermédiaire</span></div>
+            <div class="primaire"><span>Intermédiaire</span></div>
 
-            <div class="secondaire" style="background-color: #5885d8;" id="intermediaire"
-                onclick="window.location.href='point_granite.html';">
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='point_granite.html';">
                 <span>Point Granité</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="intermediaire"
-                onclick="window.location.href='point_alpin.html';">
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='point_alpin.html';">
                 <span>Point Alpin</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="intermediaire"
-                onclick="window.location.href='point_d_alveoles.html';">
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='point_d_alveoles.html';">
                 <span>Point d'Alvéoles</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="intermediaire"
-                onclick="window.location.href='point_de_rose.html';">
+            <div class="secondaire" id="intermediaire" onclick="window.location.href='point_de_rose.html';">
                 <span>Point de Rose</span>
             </div>
         </div>
 
         <div class="regroupe">
 
-            <div class="primaire" style="background-color: #5885d8;"><span>Qualifié</span></div>
+            <div class="primaire"><span>Qualifié</span></div>
 
-            <div class="secondaire" style="background-color: #5885d8;" id="qualifie"
-                onclick="window.location.href='point_de_vagues.html';">
+            <div class="secondaire" id="qualifie" onclick="window.location.href='point_de_vagues.html';">
                 <span>Point de Vagues</span>
             </div>
-            <div class="secondaire" style="background-color: #5885d8;" id="qualifie"
-                onclick="window.location.href='point_souffle.html';">
+            <div class="secondaire" id="qualifie" onclick="window.location.href='point_souffle.html';">
                 <span>Point Soufflé</span>
             </div>
 
@@ -166,14 +159,14 @@
 
             <div class="dispo_txt_img">
 
-                <div class="txt" style="background-color: #648edc;">
+                <div class="txt">
                     <p id="first">
                         Bien que son origine reste incertaine (Chine, Pérou, Tunisie, Irlande ou encore Égypte), les
                         premières traces du crochet remontent à la fin du Moyen Âge.
                     </p>
                 </div>
 
-                <div class="illustration" style="background-color: #87aef5;">
+                <div class="illustration">
                     <img src="../img/origine.png" />
                 </div>
 
@@ -189,14 +182,14 @@
 
             <div class="dispo_txt_img">
 
-                <div class="txt" style="background-color: #648edc;">
+                <div class="txt">
                     <p id="first">
                         Bien que son origine reste incertaine (Chine, Pérou, Tunisie, Irlande ou encore Égypte), les
                         premières traces du crochet remontent à la fin du Moyen Âge.
                     </p>
                 </div>
 
-                <div class="illustration" style="background-color: #87aef5;">
+                <div class="illustration">
                     <img src="../img/origine.png" />
                 </div>
 
@@ -212,14 +205,14 @@
 
             <div class="dispo_txt_img">
 
-                <div class="txt" style="background-color: #648edc;">
+                <div class="txt">
                     <p id="first">
                         Bien que son origine reste incertaine (Chine, Pérou, Tunisie, Irlande ou encore Égypte), les
                         premières traces du crochet remontent à la fin du Moyen Âge.
                     </p>
                 </div>
 
-                <div class="illustration" style="background-color: #87aef5;">
+                <div class="illustration">
                     <img src="../img/origine.png" />
                 </div>
 
@@ -235,14 +228,14 @@
 
             <div class="dispo_txt_img">
 
-                <div class="txt" style="background-color: #648edc;">
+                <div class="txt">
                     <p id="first">
                         Bien que son origine reste incertaine (Chine, Pérou, Tunisie, Irlande ou encore Égypte), les
                         premières traces du crochet remontent à la fin du Moyen Âge.
                     </p>
                 </div>
 
-                <div class="illustration" style="background-color: #87aef5;">
+                <div class="illustration">
                     <img src="../img/origine.png" />
                 </div>
 
@@ -259,7 +252,7 @@
     </section>
 
 
-    <footer style="background-color: #5885d8;">
+    <footer>
         <span class=" copyright">© Jolan Bertin</span>
     </footer>
 
