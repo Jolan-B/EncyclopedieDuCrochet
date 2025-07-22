@@ -35,6 +35,9 @@ body {
     font-family: var(--header_police);
 }
 
+.pointer {
+    cursor: pointer;
+}
 
 /* HEADER */
 
@@ -248,16 +251,86 @@ header>.vide {
     font-size: var(--txt_font_size);
 }
 
+.option {
+    width: 100%;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+#compteur {
+    width: 6%;
+    display: flex;
+    /* margin-left: 0%;
+    bottom: 0%;
+    display: flex;
+    position: sticky; */
+}
+
+#appli {
+    padding: 1%;
+    gap: 5px;
+
+    background-color: white;
+
+    display: none;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+#compte {
+    border: none;
+    text-align: center;
+    width: 50px;
+
+    font-size: var(--etape_font_size);
+}
+
+.boutons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boutons button {
+    background-color: white;
+    border: none;
+    font-family: var(--header_police);
+    font-weight: bold;
+}
+
+.plus,
+.moins {
+    font-weight: bold;
+    min-width: 30px;
+    background-color: var(--white);
+    font-size: var(--etape_font_size);
+    border: none;
+}
+
+
+.plus {
+    color: green;
+}
+
+.moins {
+    color: red;
+}
+
 .remontePage {
     width: 9%;
     display: flex;
+    align-self: flex-end;
+    /*
     position: sticky;
     margin-left: 91%;
-    bottom: 0%;
+    bottom: 0%; */
 }
 
-.remontePage>img {
+.remontePage>img,
+#compteur>img {
     width: 100%;
+    object-fit: contain;
     cursor: pointer;
 }
 

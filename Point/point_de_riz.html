@@ -7,6 +7,7 @@
     <title>Point de riz</title>
     <link rel="stylesheet" href="point.css">
     <link rel="icon" type="image/svg+xml" href="../img/logo.png" />
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <style>
@@ -233,11 +234,29 @@
 
         </section>
 
+        <section class="option">
 
+            <div id="compteur">
+                <img src="../img/compteur.png" onclick="affiche()" />
+            </div>
 
-        <div class="remontePage">
-            <img src="../img/remonte_page/tete_chat2.png" onclick="window.location.href='point_de_riz.html';" />
-        </div>
+            <div id="appli">
+                <div>
+                    <button class="pointer moins" onclick="decremente()">-</button>
+                    <input id="compte" onchange="couleur()" />
+                    <button class="pointer plus" onclick="incremente()">+</button>
+                </div>
+
+                <div class="boutons">
+                    <button class="pointer" onclick="zero()">Zéro</button>
+                    <button class="pointer" onclick="affiche()">Fermer</button>
+                </div>
+            </div>
+
+            <div class="remontePage">
+                <img src="../img/remonte_page/tete_chat2.png" onclick="window.location.href='point_de_riz.html';" />
+            </div>
+        </section>
 
     </section>
 
